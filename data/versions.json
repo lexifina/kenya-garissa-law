@@ -1,0 +1,47 @@
+{
+ "country": "KE-07",
+ "acts": [
+  {
+   "slug": "garissa-county-climate-change-act-2025",
+   "short": "The Garissa County Climate Change Act, 2025",
+   "title": "The Garissa County Climate Change Act, 2025",
+   "url": "https://garissaassembly.go.ke/acts/",
+   "versions": [
+    {
+     "from": "2025-08-08",
+     "units": 54,
+     "source_url": "https://garissaassembly.go.ke/wp-content/uploads/2026/08/THE-GARISSA-COUNTY-CLIMATE-CHANGE-ACT-2025.pdf",
+     "sha256": "f6c22a1aee4cf7d856c764d70a78f030cac32f8ffbb12189912e925d20058238"
+    }
+   ]
+  },
+  {
+   "slug": "garissa-county-disaster-risk-management-act-2025",
+   "short": "The Garissa County Disaster Risk Management Act, 2025",
+   "title": "The Garissa County Disaster Risk Management Act, 2025",
+   "url": "https://garissaassembly.go.ke/acts/",
+   "versions": [
+    {
+     "from": "2025-08-08",
+     "units": 34,
+     "source_url": "https://garissaassembly.go.ke/wp-content/uploads/2026/08/THE-GARISSA-COUNTY-DISASTER-RISK-MANAGEMENT-ACT-2025.pdf",
+     "sha256": "7c86a7270f46f2924b2c77c62ed853d93bdc2928daa2dbd764fee1f7a21af472"
+    }
+   ]
+  },
+  {
+   "slug": "garissa-county-livestock-marketing-act-2025",
+   "short": "The Garissa County Livestock Marketing Act, 2025",
+   "title": "The Garissa County Livestock Marketing Act, 2025",
+   "url": "https://garissaassembly.go.ke/acts/",
+   "versions": [
+    {
+     "from": "2025-08-08",
+     "units": 38,
+     "source_url": "https://garissaassembly.go.ke/wp-content/uploads/2026/08/THE-GARISSA-COUNTY-LIVESRTOCK-MARKETING-ACT-2025.pdf",
+     "sha256": "896a3c3b1142b89e7a8e052e61eccfdd02b8e7ac9bd8a44b6d0f02cd9023fc40"
+    }
+   ]
+  }
+ ]
+}
