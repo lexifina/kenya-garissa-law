@@ -1,45 +1,26 @@
 # Garissa County (Kenya): law history in git
 
-The Acts of the County Assembly of Garissa, Kenya, as a git history: one folder per Act, one file per section, one paragraph per line, so `git blame`, `git log` and `git diff` work line by line. The text is the English text of each Act as published in the Kenya Gazette Supplement by the Government Printer and posted by the County Assembly of Garissa on its website.
+This record contains six Acts posted by the County Assembly of Garissa. Three earlier records use section files; three additional records retain the complete official Gazette supplement in one text unit per Act, including covers, arrangements, page headings and tables.
 
-It follows the shared design of [lexifina/global-law](https://github.com/lexifina/global-law).
+The source supplements contain the Acts as enacted. They are not verified current consolidations, and later amendments are not inferred or applied. Every Act has one "oldest version available" record; this is not a reconstructed history.
 
-## What this repository holds
+| Folder | Act | Representation | Record date |
+| --- | --- | --- | --- |
+| `garissa-county-climate-change-act-2025` | The Garissa County Climate Change Act, 2025 | Section files | 2025-08-08 |
+| `garissa-county-disaster-risk-management-act-2025` | The Garissa County Disaster Risk Management Act, 2025 | Section files | 2025-08-08 |
+| `garissa-county-livestock-marketing-act-2025` | The Garissa County Livestock Marketing Act, 2025 | Section files | 2025-08-08 |
+| `garissa-county-environmental-restoration-and-livelihood-improvement-act-2023` | The Garissa County Environmental Restoration and Livelihood Improvement Act, 2023 | Complete supplement in one text unit | 2026-11-03 |
+| `garissa-county-financing-of-cities-and-urban-areas-act-2026` | The Garissa County Financing of Cities and Urban Areas Act, 2026 | Complete supplement in one text unit | 2026-11-03 |
+| `garissa-county-health-facility-improvement-financing-act-2024` | The Garissa County Health Facility Improvement Financing Act, 2024 | Complete supplement in one text unit | 2026-11-03 |
 
-**Acts as enacted, not yet a history.** The County Assembly posts each Act as the Kenya Gazette Supplement that published it; there is no consolidated text. So each Act is one commit holding its text as enacted ("oldest version available"), credited to the publisher, not to an amending law. An amending Act is its own folder; its amendments are not applied to the Act it amends.
+The three additional records use 3 November 2026, credited to the publisher, because the latest amendment-in-force day is not established. Source assent and commencement statements remain in the complete supplements and version notes. Earlier records retain their established dates.
 
-| Folder | What |
-| --- | --- |
-| one folder per Act (by its short title) | `000-title.md` (the Act's title, long title and enacting words), one file per section, one per Schedule |
+The Health Facility supplement contains differing title years, and the Environmental Restoration supplement contains irregular section numbering. Those source statements are retained verbatim.
 
-The Acts come in parts of about fifty, in date order. An Act is left out until it can be read reliably: scans with no text layer (no OCR is used), documents that are not Gazette Supplements (drafts, Bills, Word copies), PDFs with tables or forms the independent check below does not find in the same order, and PDFs whose sections do not match their own arrangement of sections. Subsidiary legislation is not included.
+The Appropriation and Investment and Development Authority supplements are not included in this addition because their complete text could not be independently verified. This record covers only part of the county's legislation.
 
-## Source
+Source: [County Assembly of Garissa: Acts](https://garissaassembly.go.ke/acts/), Kenya Gazette Supplements printed by the Government Printer, Nairobi. Source document hashes are recorded with each version.
 
-[County Assembly of Garissa: Acts](https://garissaassembly.go.ke/acts/), each a Kenya Gazette Supplement ("Garissa County Acts") printed and published by the Government Printer, Nairobi. Each PDF's sha256 is recorded with its version in `data/versions.json`.
+The commit author identifies the source publisher; Lexifina is the committer. Verification results and reproduction instructions are in REPRODUCE.md.
 
-## Dates
-
-Each Act is dated by the "Date of Commencement" its Supplement prints, at noon in Nairobi. Where that is not a date (for example "See Section 1"), the Act is dated by the date of the Gazette Supplement that published it, and never before its Date of Assent. The version note of each Act gives its number, Supplement, Date of Assent and the rule used.
-
-## How it is built
-
-Lexifina reads the sources listed here and records each act's dated versions, and the laws that made each change, in one corpus file. `tools/build.py` writes this repository from that file, and the same corpus always gives the same commit hashes; `REPRODUCE.md` gives the details and the checks. A model (Claude) wrote Lexifina's code; it wrote no legal text, and no model runs when the history is built.
-
-The text layer of each PDF (no OCR) becomes one file per section. The Supplement cover, the title block (number, Dates of Assent and Commencement), the arrangement of sections, running heads and page numbers are left out. Part headings and section headings (bold rows or margin notes) stand above the section they head.
-
-## How it is checked
-
-Every version is read back from git on the day it took effect and must match the corpus. A second, independent reading of every PDF (a different PDF engine) must contain every letter and digit of each Act in the same order, with nothing in the body left out. Results are in `REPRODUCE.md`.
-
-## What "author" means
-
-The author of each commit is the publisher, with an e-mail address that cannot exist; the committer is always Lexifina.
-
-## Limits
-
-Only the Acts as enacted are here: no later amendments, no consolidation, and only the Acts the County Assembly posts with a text layer. The Kenya Gazette is authoritative. This record holds only part of Garissa County's legislation.
-
-## Licence
-
-See [LICENSE](LICENSE): written law is excluded from copyright by the Copyright Act, 2001 (Cap. 130), s. 2. Source: County Assembly of Garissa; Kenya Gazette Supplement (Government Printer).
+See LICENSE. Written law is excluded from the definition of literary work in the Copyright Act, 2001 (Cap. 130), section 2.

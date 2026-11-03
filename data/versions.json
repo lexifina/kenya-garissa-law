@@ -42,6 +42,48 @@
      "sha256": "896a3c3b1142b89e7a8e052e61eccfdd02b8e7ac9bd8a44b6d0f02cd9023fc40"
     }
    ]
+  },
+  {
+   "slug": "garissa-county-environmental-restoration-and-livelihood-improvement-act-2023",
+   "short": "The Garissa County Environmental Restoration and Livelihood Improvement Act, 2023",
+   "title": "The Garissa County Environmental Restoration and Livelihood Improvement Act, 2023",
+   "url": "https://garissaassembly.go.ke/acts/",
+   "versions": [
+    {
+     "from": "2026-11-03",
+     "units": 1,
+     "source_url": "https://garissaassembly.go.ke/wp-content/uploads/2026/08/THE-GARISSA-COUNTY-ENVIRONMENT-ACT-2023.pdf",
+     "sha256": "fa0f3b14fa7b508405c44711c42d17fb7a0e692939ea7a6323e30e6246f66409"
+    }
+   ]
+  },
+  {
+   "slug": "garissa-county-financing-of-cities-and-urban-areas-act-2026",
+   "short": "The Garissa County Financing of Cities and Urban Areas Act, 2026",
+   "title": "The Garissa County Financing of Cities and Urban Areas Act, 2026",
+   "url": "https://garissaassembly.go.ke/acts/",
+   "versions": [
+    {
+     "from": "2026-11-03",
+     "units": 1,
+     "source_url": "https://garissaassembly.go.ke/wp-content/uploads/2026/08/THE-GARISSA-COUNTY-URBAN-AREAS-FINANCING-ACT-2026.pdf",
+     "sha256": "9a0c32439f84575e2efe918599d8da32c681774c50fa7bdc5eb1d15a7aac60ad"
+    }
+   ]
+  },
+  {
+   "slug": "garissa-county-health-facility-improvement-financing-act-2024",
+   "short": "The Garissa County Health Facility Improvement Financing Act, 2024",
+   "title": "The Garissa County Health Facility Improvement Financing Act, 2024",
+   "url": "https://garissaassembly.go.ke/acts/",
+   "versions": [
+    {
+     "from": "2026-11-03",
+     "units": 1,
+     "source_url": "https://garissaassembly.go.ke/wp-content/uploads/2025/09/FIF-ACT-2024.pdf",
+     "sha256": "9d8c6acdf35b0f89f6320d55954e4ca925513aea9949e0ed058efb70c87bf292"
+    }
+   ]
   }
  ]
 }
