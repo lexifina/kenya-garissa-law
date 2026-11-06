@@ -1,5 +1,7 @@
 # Garissa County (Kenya): law history in git
 
+Part of [lexifina/global-law](https://github.com/lexifina/global-law), one git history for every country's law: this is the law of Garissa County, Kenya, which global-law reads at `kenya/garissa/acts/`.
+
 This record contains six Acts posted by the County Assembly of Garissa. Three earlier records use section files; three additional records retain the complete official Gazette supplement in one text unit per Act, including covers, arrangements, page headings and tables.
 
 The source supplements contain the Acts as enacted. They are not verified current consolidations, and later amendments are not inferred or applied. Every Act has one "oldest version available" record; this is not a reconstructed history.
